@@ -48,12 +48,9 @@ A RESTful API for managing tasks, built with Spring Boot following Domain-Driven
    ```
 
 4. **Run the application**:
-   ```bash
-   ./mvnw spring-boot:run
    ```
-   On Windows:
-   ```bash
-   mvnw.cmd spring-boot:run
+   cd target
+   java -jar TaskManagementSystem-0.0.1-SNAPSHOT.jar
    ```
 
 5. The application will start on `http://localhost:8080`
